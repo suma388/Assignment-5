@@ -10,3 +10,7 @@ function setInnerText(id, value) {
 document.getElementById("button").addEventListener("click", function () {
   window.location.href = "index.html";
 });
+
+// document.getElementById("color-btn").addEventListener("click", function () {
+//   console.log("ok");
+// });

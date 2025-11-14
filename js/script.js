@@ -283,3 +283,10 @@ const fulldate = date.toLocaleString("en-US", {
 });
 document.getElementById("week").innerText = day;
 document.getElementById("year").innerText = fulldate;
+// ------------------------------------------------
+document.getElementById("color-btn").addEventListener("click", function () {
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = randomColor;
+
+  console.log("New Color:", randomColor);
+});
