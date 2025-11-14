@@ -268,6 +268,11 @@ document.getElementById("clear-btn").addEventListener("click", function () {
   const historyContainer = document.getElementById("history-container");
   historyContainer.innerText = "";
 });
+// ----big btn -------------------------
+document.getElementById("big-btn").addEventListener("click", function () {
+  window.location.href = "back-part.html";
+});
+// ----------------back btn---------------------
 //  ----------date time----------------------
 const date = new Date();
 const day = date.toLocaleString("en-US", { weekday: "short" });

@@ -6,3 +6,7 @@ function convertTextToNumber(id) {
 function setInnerText(id, value) {
   const getId = (document.getElementById(id).innerText = value);
 }
+
+document.getElementById("button").addEventListener("click", function () {
+  window.location.href = "index.html";
+});
